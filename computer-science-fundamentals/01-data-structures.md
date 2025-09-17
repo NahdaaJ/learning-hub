@@ -263,6 +263,13 @@ If we need to add extra elements, we can increaase the capacity.
 - This copying is expensive (**O(n)**), but it doesn’t happen often. Most insertions are still **O(1) on average (amortized)**.
 - Some languages will shrink if the usage drops a lot.
   - List in C#: also **doesn’t shrink automatically**, but has a method like `TrimExcess()` to manually shrink it.
+- The **capacity increase value/rate** varies from language to language.
+  - In C#, the array starts with a capacity of 0. Then it goes to 4. After that it doubles, so it goes:
+
+        0 → 4 → 8 → 16 → 32 → 64 etc
+
+  - This is different for different languages:
+    <img src="../note-images/dynamic-array-growth-factor.png">
 
 ### Advantages of Dynamic Arrays
 
@@ -292,10 +299,6 @@ dynamicArray.RemoveAt(1);
 // Insert Element O(n)
 dynamicArray.Insert(1, 20);
 ```
-
-In C#, the array starts with a capacity of 0. Then it goes to 4. After that it doubles, so it goes:
-
-0 → 4 → 8 → 16 → 32 → 64 etc etc
 
 ## Final Comparison
 
