@@ -1,10 +1,26 @@
-# What is a data structure?
+# Data Structures 🌸
+
+
+## Table of Contents
+
+- [What is a data structure?](#what-is-a-data-structure)
+- [Stack](#stack)
+- [Queues](#queues)
+- [Priority Queues](#priority-queues)
+- [Linked Lists](#linked-lists)
+    - [Singly Linked Lists](#singly-linked-lists)
+    - [Doubly Linked Lists](#doubly-linked-lists)
+- [Dynamic Arrays](#dynamic-arrays)
+- [Final Comparison](#final-comparison)
+- [Keywords](#keywords)
+
+## What is a data structure?
 
 - a named location that can be used to store and organise data
 - e.g. family tree, arrays
 - different data structures stores and organises data in different ways
 
-# Stack
+## Stack
 
 ### What is a stack?
 
@@ -32,7 +48,7 @@ Console.WriteLine($"Stack after peek: {string.Join(", ", stack)}");
 - moving back or foreward between browsing history
 - backtracking algorithm
 
-# Queues
+## Queues
 
 ### What is a queue?
 
@@ -55,7 +71,7 @@ Console.WriteLine($"Front item (peek): {queue.Peek()}");
 Console.WriteLine($"Queue after peek: {string.Join(", ", queue)}");
 ```
 
-# Priority Queues
+## Priority Queues
 
 ### What is a priority queue?
 
@@ -84,7 +100,7 @@ foreach (var item in priorityQueue)
 }
 ```
 
-# Linked Lists
+## Linked Lists
 
 ### Singly Linked Lists
 
@@ -236,7 +252,7 @@ class DoublyLinkedList
 }
 ```
 
-# Dynamic Arrays
+## Dynamic Arrays
 
 An array with a resizable capacity. Also known as `List<T>` in C#.
 
@@ -281,7 +297,7 @@ In C#, the array starts with a capacity of 0. Then it goes to 4. After that it d
 
 0 → 4 → 8 → 16 → 32 → 64 etc etc
 
-# Final Comparison
+## Final Comparison
 
 | Data Structure           | Ordering principle                                  | How it stores data                               | Main operations                                         | Time complexity (average)                                              | When to use                                                            |
 | ------------------------ | --------------------------------------------------- | ------------------------------------------------ | ------------------------------------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------- |
@@ -292,7 +308,7 @@ In C#, the array starts with a capacity of 0. Then it goes to 4. After that it d
 | **Doubly Linked List**   | Linear, forward and backward links                  | Each node points to both next and previous nodes | Append, Insert, Delete, Traverse (both directions)      | Append/Delete: O(1) if at node, Search: O(n)                           | When you need to traverse both ways or remove nodes efficiently        |
 | **Dynamic Array (List)** | Linear, contiguous memory                           | Backed by resizable static array                 | Add, Insert, Delete, Access                             | Access: O(1), Insert/Delete (middle): O(n), Add at end: O(1) amortised | When you need fast random access and mostly add/remove at the end      |
 
-# Keywords
+## Keywords
 
 **`LIFO`** - last in, first out
 
