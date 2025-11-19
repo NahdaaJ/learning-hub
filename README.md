@@ -1,13 +1,13 @@
-# Learning Hub 🌸
+# Learning Hub 🩶
 A repo to contain all my learning materials and notes. Even after I complete my learning plan, I would like to continue storing my notes and practice code in here.
 
-## ✅ **PHASE 1 — FOUNDATIONS**
+## 🩶 **PHASE 1 — FOUNDATIONS**
 
 ### **Months 1–3**
 
 Goal: Advanced C#, fundamentals, build small full-stack app.
 
-## **📌 Month 1 — Advanced C#, LINQ, Lambdas, Async**
+## **⚫ Month 1 — Advanced C#, LINQ, Lambdas, Async**
 
 ### **WEEK 1 — Deepen C# language mastery**
 
@@ -53,7 +53,7 @@ Goal: Advanced C#, fundamentals, build small full-stack app.
 
 <br/>
 
-## 📌 **Month 2 — Data Structures, Algorithms, Design Patterns, SQL Deepening**
+## ⚫ **Month 2 — Data Structures, Algorithms, Design Patterns, SQL Deepening**
 
 ### **WEEK 1 — Data Structures**
 
@@ -100,7 +100,7 @@ Goal: Advanced C#, fundamentals, build small full-stack app.
 
 <br/>
 
-## 📌 **Month 3 — Build Your First Full-Stack App**
+## ⚫ **Month 3 — Build Your First Full-Stack App**
 
 Goal: Make a CRUD app, connect API ↔ SQL ↔ Front-End
 
@@ -145,13 +145,13 @@ Goal: Make a CRUD app, connect API ↔ SQL ↔ Front-End
 
 <br/>
 
-## ✅ **PHASE 2 — REAL-WORLD SKILLS**
+## 🩶 **PHASE 2 — REAL-WORLD SKILLS**
 
 ### **Months 4–6**
 
 Focus: Deployment, cloud, DevOps, pipelines, Docker, improved front-end, advanced API.
 
-## 📌 **Month 4 — API Mastery + Front-End Improvements**
+## ⚫ **Month 4 — API Mastery + Front-End Improvements**
 
 ### **WEEK 1 — Advanced API Concepts**
 
@@ -184,7 +184,7 @@ Focus: Deployment, cloud, DevOps, pipelines, Docker, improved front-end, advance
 
 <br/>
 
-## 📌 **Month 5 — Docker + DevOps Basics + Cloud**
+## ⚫ **Month 5 — Docker + DevOps Basics + Cloud**
 
 ### **WEEK 1 — Docker**
 
@@ -222,7 +222,7 @@ Focus: Deployment, cloud, DevOps, pipelines, Docker, improved front-end, advance
 
 <br/>
 
-## 📌 **Month 6 — Full Deployment Project**
+## ⚫ **Month 6 — Full Deployment Project**
 
 Goal: Your second major portfolio project (cross-device notes app)
 
@@ -260,11 +260,11 @@ Goal: Your second major portfolio project (cross-device notes app)
 
 <br/>
 
-## ✅ **PHASE 3 — SPECIALISATION + AI**
+## 🩶 **PHASE 3 — SPECIALISATION + AI**
 
 ### **Months 7–9**
 
-## 📌 **Month 7 — System Design, Software Engineering Mastery**
+## ⚫ **Month 7 — System Design, Software Engineering Mastery**
 
 ### **WEEK 1**
 
@@ -297,7 +297,7 @@ LeetCode Easy/Medium:
 
 <br/>
 
-## 📌 **Month 8 — AI/LLM Integration + Microservices**
+## ⚫ **Month 8 — AI/LLM Integration + Microservices**
 
 ### **WEEK 1 — LLM Basics**
 
@@ -326,7 +326,7 @@ LeetCode Easy/Medium:
 
 <br/>
 
-## 📌 **Month 9 — Final Major Project**
+## ⚫ **Month 9 — Final Major Project**
 
 Goal: Scalable, cloud-ready, AI-enhanced app.
 
@@ -344,11 +344,11 @@ Goal: Scalable, cloud-ready, AI-enhanced app.
 
 <br/>
 
-## ✅ **PHASE 4 — CONSOLIDATION**
+## 🩶 **PHASE 4 — CONSOLIDATION**
 
 ### **Months 10–12**
 
-## 📌 **Month 10 — Refactor, Polish, Documentation**
+## ⚫ **Month 10 — Refactor, Polish, Documentation**
 
 - [ ]  Refactor old projects
 - [ ]  Improve folder structures
