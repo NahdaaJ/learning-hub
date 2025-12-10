@@ -1,6 +1,8 @@
 # Learning Hub 🩶
 A repo to contain all my learning materials and notes. Even after I complete my learning plan, I would like to continue storing my notes and practice code in here.
 
+<pre> Currently Learning: Delegates 🩶</pre>
+
 ## 🩶 **PHASE 1 — FOUNDATIONS**
 
 ### **Months 1–3**
@@ -11,8 +13,8 @@ Goal: Advanced C#, fundamentals, build small full-stack app.
 
 ### **WEEK 1 — Deepen C# language mastery**
 
-- [ ]  Review OOP pillars briefly (inheritance, polymorphism, abstraction, encapsulation)
-- [ ]  Understand *when* to use interfaces vs abstract classes
+- [x]  Review OOP pillars briefly (inheritance, polymorphism, abstraction, encapsulation)
+- [x]  Understand *when* to use interfaces vs abstract classes
 - [ ]  Learn C# **Delegates**
 - [ ]  Learn **Events** (publisher/subscriber pattern)
 - [ ]  Learn **Lambda expressions**
