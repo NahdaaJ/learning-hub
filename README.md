@@ -1,361 +1,316 @@
-# Learning Hub 🩶
+# Learning Hub 🐼
 A repo to contain all my learning materials and notes. Even after I complete my learning plan, I would like to continue storing my notes and practice code in here.
 
-<pre> Currently Learning: Delegates 🩶</pre>
-
-## 🩶 **PHASE 1 — FOUNDATIONS**
-
-### **Months 1–3**
-
-Goal: Advanced C#, fundamentals, build small full-stack app.
+<pre> Currently Learning: Abstraction 🩶</pre>
 
-## **⚫ Month 1 — Advanced C#, LINQ, Lambdas, Async**
-
-### **WEEK 1 — Deepen C# language mastery**
-
-- [x]  Review OOP pillars briefly (inheritance, polymorphism, abstraction, encapsulation)
-- [x]  Understand *when* to use interfaces vs abstract classes
-- [ ]  Learn C# **Delegates**
-- [ ]  Learn **Events** (publisher/subscriber pattern)
-- [ ]  Learn **Lambda expressions**
-- [ ]  Write 3 small console examples to solidify each concept
-- [ ]  Update GitHub with a folder called `csharp-fundamentals-practice`
-
-### **WEEK 2 — LINQ**
-
-- [ ]  Learn LINQ method syntax (Select, Where, First, Any, All, GroupBy)
-- [ ]  Learn LINQ query syntax
-- [ ]  Practise by:
-    - [ ]  Creating a list of objects (e.g., Pokémon / Products)
-    - [ ]  Filtering, searching, grouping
-    - [ ]  Mapping from one type → another
-- [ ]  Build 1 mini-exercise: “LINQ Mini Queries Playground”
-- [ ]  Push to GitHub
-
-### **WEEK 3 — Async & Await**
-
-- [ ]  Understand what async/await actually does
-- [ ]  Learn Tasks vs Threads (high-level)
-- [ ]  Write 3 examples:
-    - [ ]  Await network call
-    - [ ]  Parallel tasks
-    - [ ]  Cancelling a token
-- [ ]  Add `AsyncPlayground` repo to GitHub
-
-### **WEEK 4 — Consolidation + Mini Project**
-
-- [ ]  Revisit weak points
-- [ ]  Create a **Console App** using everything learned:
-    - [ ]  Use LINQ
-    - [ ]  Async calls
-    - [ ]  Events
-    - [ ]  Delegates
-- [ ]  Push polished code → GitHub
-- [ ]  Write a short README on what you learned
-
-<br/>
-
-## ⚫ **Month 2 — Data Structures, Algorithms, Design Patterns, SQL Deepening**
+## 🖤 PHASE 1 — CORE SOFTWARE ENGINEERING THINKING
 
-### **WEEK 1 — Data Structures**
+> Goal: Understand *why* code is structured the way it is
+> 
 
-- [ ]  Arrays & Lists
-- [ ]  Dictionaries / HashMaps
-- [ ]  Stacks
-- [ ]  Queues
-- [ ]  Big O basics
-- [ ]  Practice on LeetCode (Easy ONLY):
-    - [ ]  Two Sum
-    - [ ]  Valid Parentheses
-    - [ ]  Merge Two Lists
-    - [ ]  Maximum Subarray
+### ◼️ Object-Oriented Design (Conceptual, not syntax)
 
-### **WEEK 2 — Algorithms**
+- [x]  What problems OOP is meant to solve
+- [x]  Encapsulation (real meaning, not “private fields”)
+- [ ]  Abstraction vs implementation
+- [ ]  Inheritance as a **last resort**
+- [ ]  Composition as a default
+- [ ]  When OOP breaks down / isn’t ideal
 
-- [ ]  Sorting (bubble, insertion, mergesort, quicksort — know conceptually)
-- [ ]  Searching (linear vs binary)
-- [ ]  Learn recursion basics
-- [ ]  LeetCode practice (Easy):
-    - [ ]  Binary Search
-    - [ ]  Best Time to Buy/Sell Stock
-    - [ ]  Contains Duplicate
-- [ ]  Add `algorithms-practice` folder to GitHub
+---
 
-### **WEEK 3 — Design Patterns**
+### ◼️ SOLID (as decision-making tools)
 
-- [ ]  Singleton
-- [ ]  Factory
-- [ ]  Strategy
-- [ ]  Observer
-- [ ]  Repository Pattern (very relevant to .NET)
-- [ ]  Build 5 tiny C# examples demonstrating each
-- [ ]  Push to GitHub with a README
+- [ ]  Single Responsibility → how responsibilities actually creep
+- [ ]  Open/Closed → extending without modifying
+- [ ]  Liskov → recognising broken inheritance
+- [ ]  Interface Segregation → fat vs thin interfaces
+- [ ]  Dependency Inversion → policy vs detail
 
-### **WEEK 4 — SQL + API Theory**
+👉 Focus: *spotting violations in real code*
 
-- [ ]  Review SQL joins (INNER, LEFT, RIGHT)
-- [ ]  Learn indexing basics (clustered vs non-clustered)
-- [ ]  Learn transactions and ACID
-- [ ]  Learn basics of API design (endpoints, verbs, status codes, routing)
-- [ ]  Watch one video on REST architecture
-- [ ]  Prep DB schema for Month 3 project
+---
 
-<br/>
+### ◼️ Coupling, Cohesion & Change
 
-## ⚫ **Month 3 — Build Your First Full-Stack App**
+- [ ]  What tightly coupled code feels like to work with
+- [ ]  What “high cohesion” looks like in practice
+- [ ]  Localising change
+- [ ]  Designing for change vs over-engineering
 
-Goal: Make a CRUD app, connect API ↔ SQL ↔ Front-End
+### Small project: **Domain Modelling Exercise**
 
-### **WEEK 1 — ASP.NET Web API Setup**
+**Build:** A tiny in-memory domain model (console or class library)
 
-- [ ]  Create new .NET Web API project
-- [ ]  Make controllers folder
-- [ ]  Make services folder
-- [ ]  Make models folder
-- [ ]  Add connection string to local SQL
-- [ ]  Build 1 endpoint (GET)
-- [ ]  Test using Postman
+**Example domains (pick ONE):**
 
-### **WEEK 2 — Full CRUD + Database**
+- Library (books, members, loans)
+- Orders (orders, items, payments)
+- Habits (habits, completions, streaks)
 
-- [ ]  Create SQL tables
-- [ ]  Create Repository pattern
-- [ ]  Implement CRUD:
-    - [ ]  GET all
-    - [ ]  GET by ID
-    - [ ]  POST
-    - [ ]  PUT
-    - [ ]  DELETE
-- [ ]  Add error handling and JSON responses
+**Must contain:**
 
-### **WEEK 3 — Front-End (Angular or React)**
+- [ ]  Clear responsibilities per class
+- [ ]  No “god objects”
+- [ ]  Behaviour inside the domain (not just data)
+- [ ]  Explicit invariants (rules that must always hold)
 
-- [ ]  Create new front-end project
-- [ ]  Create components/pages
-- [ ]  Add service to call your API
-- [ ]  Display data on page
-- [ ]  Add create/update/delete UI
-- [ ]  Add loading UI
+📌 Purpose: practise **encapsulation, cohesion, responsibility** — not features.
 
-### **WEEK 4 — Testing + Polish**
+---
 
-- [ ]  Add unit tests for services (xUnit or NUnit)
-- [ ]  Add a README with architecture summary
-- [ ]  Host repo on GitHub
-- [ ]  Add screenshots to README
-- [ ]  Demo to yourself (and to me if you want)
+## 🖤 PHASE 2 — ARCHITECTURE FUNDAMENTALS (VERY IMPORTANT)
 
-<br/>
+> Goal: Be able to explain and reason about system structure
+> 
 
-## 🩶 **PHASE 2 — REAL-WORLD SKILLS**
+### ◼️ Layered Architecture
 
-### **Months 4–6**
+- [ ]  Presentation vs Application vs Domain vs Infrastructure
+- [ ]  What logic belongs where
+- [ ]  Common layering mistakes
+- [ ]  “Anemic domain” vs rich domain (conceptually)
 
-Focus: Deployment, cloud, DevOps, pipelines, Docker, improved front-end, advanced API.
+---
 
-## ⚫ **Month 4 — API Mastery + Front-End Improvements**
+### ◼️ Clean Architecture (high-level only)
 
-### **WEEK 1 — Advanced API Concepts**
+- [ ]  Dependency direction
+- [ ]  Business rules vs frameworks
+- [ ]  What “independent of UI/database” actually means
+- [ ]  Why this matters long-term
 
-- [ ]  Learn DTOs
-- [ ]  Learn validation (FluentValidation)
-- [ ]  Learn logging (Serilog)
-- [ ]  Add logging to your API
-- [ ]  Add global exception handling
+---
 
-### **WEEK 2 — Authentication Basics**
+### ◼️ Boundaries & Contracts
 
-- [ ]  Learn JWT authentication
-- [ ]  Add registration/login endpoint
-- [ ]  Secure CRUD endpoints
-- [ ]  Add “role” or “user id” linking
+- [ ]  What is a boundary?
+- [ ]  DTOs vs domain models (conceptual)
+- [ ]  Why mapping exists
+- [ ]  What *not* to leak across boundaries
 
-### **WEEK 3 — Improve Front-End**
+### Small project: **Layered Refactor**
 
-- [ ]  Add router with multiple pages
-- [ ]  Add forms with validation
-- [ ]  Add state management (Redux / NgRx optional)
-- [ ]  Add dark mode (fits your aesthetic)
+**Build:** A deliberately over-simple layered app
 
-### **WEEK 4 — API + Front-End Integration**
+**Task:**
 
-- [ ]  Connect login system
-- [ ]  Store token in secure storage
-- [ ]  Update UI based on login state
-- [ ]  Make pretty UI (dark feminine vibes 💀✨)
+- Start with all logic in one place
+- Split into:
+    - Domain
+    - Application
+    - Infrastructure
 
-<br/>
+**Must contain:**
 
-## ⚫ **Month 5 — Docker + DevOps Basics + Cloud**
+- [ ]  Clear layer boundaries
+- [ ]  No infrastructure referenced by domain
+- [ ]  Interfaces at boundaries
+- [ ]  A short diagram or README explaining dependencies
 
-### **WEEK 1 — Docker**
+📌 Purpose: internalise **boundaries & dependency direction**.
 
-- [ ]  Install Docker Desktop
-- [ ]  Write Dockerfile for your API
-- [ ]  Write Dockerfile for front-end
-- [ ]  Create docker-compose.yml
-- [ ]  Run both locally with one command
-- [ ]  Push Docker images to Docker Hub (optional)
+---
 
-### **WEEK 2 — GitHub Actions / Pipelines**
+## 🖤 PHASE 3 — WEB & DISTRIBUTED SYSTEM CONCEPTS
 
-- [ ]  Create `.github/workflows/ci.yml`
-- [ ]  Add steps:
-    - [ ]  Build
-    - [ ]  Run tests
-    - [ ]  Build Docker image
-- [ ]  Auto-run on push to `main`
+> Goal: Understand how systems talk to each other
+> 
 
-### **WEEK 3 — Cloud Basics (Azure recommended for .NET)**
+### ◼️ HTTP & APIs (Conceptual)
 
-- [ ]  Create Azure account
-- [ ]  Learn:
-    - [ ]  App Service
-    - [ ]  Azure SQL
-    - [ ]  Storage account
-- [ ]  Deploy API to Azure App Service
-- [ ]  Deploy front-end to Azure Static Web App or App Service
+- [ ]  What REST is *trying* to achieve
+- [ ]  Idempotency
+- [ ]  Statelessness
+- [ ]  Why status codes matter
+- [ ]  Versioning APIs
+- [ ]  Backwards compatibility
 
-### **WEEK 4 — CI/CD + Deployment**
+---
 
-- [ ]  Add deployment steps to GitHub Actions
-- [ ]  Test that pushing code automatically deploys
-- [ ]  Write README with “Live Demo” link
+### ◼️ Data Flow & Failure
 
-<br/>
+- [ ]  Request lifecycle (client → server → DB → back)
+- [ ]  Where failures happen
+- [ ]  Partial failure
+- [ ]  Retries (when *not* to retry)
+- [ ]  Timeouts
 
-## ⚫ **Month 6 — Full Deployment Project**
+---
 
-Goal: Your second major portfolio project (cross-device notes app)
+### ◼️ Authentication & Authorisation (Conceptual)
 
-### **WEEK 1 — Requirements + Architecture**
+- [ ]  Identity vs access
+- [ ]  Tokens vs sessions
+- [ ]  Why JWTs exist
+- [ ]  Trust boundaries
+- [ ]  Common auth mistakes
 
-- [ ]  Write feature list
-- [ ]  Draw architecture diagram
-- [ ]  Plan database schema
-- [ ]  Set up new GitHub repo
+### Small project: **API Behaviour Sandbox**
 
-### **WEEK 2 — Back-End Build**
+**Build:** A minimal API (or fake API simulator)
 
-- [ ]  Build API skeleton
-- [ ]  Implement authentication
-- [ ]  Implement CRUD for notes
-- [ ]  Add tags/search/filter
-- [ ]  Integrate SQL
-- [ ]  Add logging + validation
+**Must contain:**
 
-### **WEEK 3 — Front-End Build**
+- [ ]  3–4 endpoints only
+- [ ]  Correct status codes for success & failure
+- [ ]  Idempotent vs non-idempotent endpoints
+- [ ]  One intentional failure scenario (timeout, validation error)
 
-- [ ]  Build login/signup pages
-- [ ]  Build notes dashboard
-- [ ]  Build editor page
-- [ ]  Add dark theme
-- [ ]  Add responsive mode (mobile friendly)
+📌 Purpose: learn **HTTP semantics & failure**, not CRUD.
 
-### **WEEK 4 — Deploy + Polish**
+---
 
-- [ ]  Dockerize
-- [ ]  CI/CD pipeline
-- [ ]  Deploy to Azure
-- [ ]  Write README
-- [ ]  Add screenshots & demo video
+## 🖤 PHASE 4 — DATA & STATE (MENTAL MODELS)
 
-<br/>
+> Goal: Stop treating databases as magic storage boxes
+> 
 
-## 🩶 **PHASE 3 — SPECIALISATION + AI**
+### ◼️ Data Modelling
 
-### **Months 7–9**
+- [ ]  What a “good” table design feels like
+- [ ]  Normalisation vs denormalisation
+- [ ]  Referential integrity
+- [ ]  Modelling relationships (1-1, 1-many, many-many)
 
-## ⚫ **Month 7 — System Design, Software Engineering Mastery**
+---
 
-### **WEEK 1**
+### ◼️ Consistency & Transactions
 
-- [ ]  Caching (Redis basics)
-- [ ]  Load balancing concepts
-- [ ]  Monolith vs microservices
+- [ ]  What a transaction guarantees
+- [ ]  When transactions hurt performance
+- [ ]  Race conditions
+- [ ]  Concurrency issues (high level)
 
-### **WEEK 2**
+---
 
-- [ ]  Messaging queues (RabbitMQ / Azure Service Bus)
-- [ ]  Event-driven architecture basics
-- [ ]  CAP theorem (just high-level)
+### ◼️ ORMs (Conceptual)
 
-### **WEEK 3 — System Design Practice**
+- [ ]  What ORMs abstract away
+- [ ]  What they *don’t*
+- [ ]  N+1 problem (why it happens)
+- [ ]  When to drop to raw SQL
 
-Study how to design:
+### Small project: **Data Modelling Drill**
 
-- [ ]  URL shortener
-- [ ]  Chat app
-- [ ]  Rate limiter
-- [ ]  E-commerce inventory system
+**Build:** A simple relational schema + access layer
 
-### **WEEK 4 — DS/Algo Refresh**
+**Task:**
 
-LeetCode Easy/Medium:
+- Design tables first (on paper or doc)
+- Then implement minimal code to read/write
 
-- [ ]  2 Mediums this week
-- [ ]  5 Easies
-- [ ]  Focus on Trees + Graph basics
+**Must contain:**
 
-<br/>
+- [ ]  1-many relationship
+- [ ]  Foreign keys
+- [ ]  A transaction scenario
+- [ ]  One example of what goes wrong without a transaction
 
-## ⚫ **Month 8 — AI/LLM Integration + Microservices**
+📌 Purpose: build intuition around **data integrity & state**.
 
-### **WEEK 1 — LLM Basics**
+---
 
-- [ ]  Learn what embeddings are
-- [ ]  Learn how to call OpenAI API from C#
-- [ ]  Learn prompt engineering basics
+## 🖤 PHASE 5 — QUALITY, RISK & CHANGE
 
-### **WEEK 2 — Build AI Microservice**
+> Goal: Be trusted to modify existing systems
+> 
 
-- [ ]  Create C# API project solely for AI tasks
-- [ ]  Add endpoint: `/summarise`
-- [ ]  Add consumption from main API
+### ◼️ Testing Philosophy
 
-### **WEEK 3 — Integrate AI Into Notes App**
+- [ ]  What tests are actually for
+- [ ]  Unit vs integration vs end-to-end (trade-offs)
+- [ ]  Testing behaviour vs implementation
+- [ ]  What *not* to test
 
-- [ ]  Add “Summarise note” button
-- [ ]  Add “Rewrite note professionally” option
-- [ ]  Add “Tag suggestion” using AI
+---
 
-### **WEEK 4 — Deploy Microservice**
+### ◼️ Debugging & Observability
 
-- [ ]  Dockerise AI service
-- [ ]  Add to docker-compose
-- [ ]  Deploy AI service to cloud
-- [ ]  Add logs + error handling
+- [ ]  Logs vs metrics vs traces (conceptual)
+- [ ]  How engineers debug production issues
+- [ ]  Why reproducibility matters
+- [ ]  Reading logs like a story
 
-<br/>
+### Small project: **Change Simulation**
 
-## ⚫ **Month 9 — Final Major Project**
+**Build:** A small existing codebase (or your own)
 
-Goal: Scalable, cloud-ready, AI-enhanced app.
+**Task:**
 
-### Tasks:
+- Introduce a new requirement *without breaking behaviour*
 
-- [ ]  Plan project features
-- [ ]  Architecture diagram
-- [ ]  Multi-service backend
-- [ ]  Front-end polish
-- [ ]  CI/CD for multiple services
-- [ ]  Observability (logs, metrics, health checks)
-- [ ]  Production deployment
-- [ ]  Amazing README + screenshots
-- [ ]  Add to portfolio site
+**Must contain:**
 
-<br/>
+- [ ]  Tests added before change
+- [ ]  Refactor to enable change
+- [ ]  At least one bug caught by a test
+- [ ]  Explanation of what could have gone wrong
 
-## 🩶 **PHASE 4 — CONSOLIDATION**
+📌 Purpose: practise **safe change & risk management**.
 
-### **Months 10–12**
+---
 
-## ⚫ **Month 10 — Refactor, Polish, Documentation**
+## 🖤 PHASE 6 — DELIVERY & REALITY
 
-- [ ]  Refactor old projects
-- [ ]  Improve folder structures
-- [ ]  Add missing tests
-- [ ]  Add proper error middleware everywhere
-- [ ]  Document everything in READMEs
-- [ ]  Create architecture diagrams for each
-- [ ]  Add GitHub issues & roadmap (looks professional)
+> Goal: Understand how code becomes software
+> 
+
+### ◼️ Environments & Deployment
+
+- [ ]  Local vs staging vs production
+- [ ]  Configuration vs code
+- [ ]  Why “works on my machine” happens
+- [ ]  Rollbacks (conceptual)
+
+---
+
+### ◼️ DevOps (Conceptual)
+
+- [ ]  What CI/CD is solving
+- [ ]  Why automation matters
+- [ ]  Build → test → deploy pipeline mentally
+- [ ]  Risks in deployment
+
+### Small project: **Delivery Walkthrough**
+
+**Build:** A minimal pipeline + deployment explanation
+
+**Must contain:**
+
+- [ ]  One automated build step
+- [ ]  One test step
+- [ ]  Config separated from code
+- [ ]  Written explanation of rollback strategy
+
+📌 Purpose: see the **full lifecycle**, even at toy scale.
+
+---
+
+## 🖤 PHASE 7 — AI IN CONTEXT (THE RIGHT WAY)
+
+> Goal: Use AI *without losing engineering skill*
+> 
+
+### ◼️ AI as an Engineering Tool
+
+- [ ]  Where AI helps (boilerplate, exploration)
+- [ ]  Where AI is dangerous (design, security, edge cases)
+- [ ]  Reviewing AI code critically
+- [ ]  Maintaining system ownership
+
+### Small project: **AI-Assisted Refactor**
+
+**Task:**
+
+- Ask AI to refactor a piece of code
+- Review it like a senior would
+
+**Must contain:**
+
+- [ ]  List of accepted suggestions
+- [ ]  List of rejected suggestions
+- [ ]  Explanation of *why*
+- [ ]  Final human-approved version
+
+📌 Purpose: maintain **ownership & judgement**.
