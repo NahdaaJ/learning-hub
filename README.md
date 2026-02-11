@@ -1,7 +1,7 @@
 # Learning Hub 🐼
 A repo to contain all my learning materials and notes. Even after I complete my learning plan, I would like to continue storing my notes and practice code in here.
 
-<pre> Currently Learning: Abstraction 🩶</pre>
+<pre> Currently Learning: Polymorphism 🩶</pre>
 
 ## 🖤 PHASE 1 — CORE SOFTWARE ENGINEERING THINKING
 
@@ -12,10 +12,10 @@ A repo to contain all my learning materials and notes. Even after I complete my 
 
 - [x]  What problems OOP is meant to solve
 - [x]  Encapsulation (real meaning, not “private fields”)
-- [ ]  Abstraction vs implementation
-- [ ]  Inheritance as a **last resort**
-- [ ]  Composition as a default
-- [ ]  When OOP breaks down / isn’t ideal
+- [x]  Abstraction vs implementation
+- [x]  Inheritance as a **last resort**
+- [x]  Composition as a default
+- [x]  When OOP breaks down / isn’t ideal
 
 ---
 
