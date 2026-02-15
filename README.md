@@ -1,14 +1,14 @@
 # Learning Hub 🐼
 A repo to contain all my learning materials and notes. Even after I complete my learning plan, I would like to continue storing my notes and practice code in here.
 
-<pre> Currently Learning: Polymorphism 🩶</pre>
+<pre> Currently Learning: SOLID Principles 🩶</pre>
 
 ## 🖤 PHASE 1 — CORE SOFTWARE ENGINEERING THINKING
 
 > Goal: Understand *why* code is structured the way it is
 > 
 
-### ◼️ Object-Oriented Design (Conceptual, not syntax)
+### ☑️ Object-Oriented Design (Conceptual, not syntax)
 
 - [x]  What problems OOP is meant to solve
 - [x]  Encapsulation (real meaning, not “private fields”)
@@ -16,6 +16,7 @@ A repo to contain all my learning materials and notes. Even after I complete my 
 - [x]  Inheritance as a **last resort**
 - [x]  Composition as a default
 - [x]  When OOP breaks down / isn’t ideal
+- [x]  Polymorphism
 
 ---
 
