@@ -22,8 +22,8 @@ A repo to contain all my learning materials and notes. Even after I complete my 
 
 ### ◼️ SOLID (as decision-making tools)
 
-- [ ]  Single Responsibility → how responsibilities actually creep
-- [ ]  Open/Closed → extending without modifying
+- [x]  Single Responsibility → how responsibilities actually creep
+- [x]  Open/Closed → extending without modifying
 - [ ]  Liskov → recognising broken inheritance
 - [ ]  Interface Segregation → fat vs thin interfaces
 - [ ]  Dependency Inversion → policy vs detail
