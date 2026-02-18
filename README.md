@@ -1,7 +1,7 @@
 # Learning Hub 🐼
 A repo to contain all my learning materials and notes. Even after I complete my learning plan, I would like to continue storing my notes and practice code in here.
 
-<pre> Currently Learning: SOLID Principles 🩶</pre>
+<pre> Currently Learning: Coupling, Cohesion & Change 🩶</pre>
 
 ## 🖤 PHASE 1 — CORE SOFTWARE ENGINEERING THINKING
 
@@ -20,13 +20,13 @@ A repo to contain all my learning materials and notes. Even after I complete my 
 
 ---
 
-### ◼️ SOLID (as decision-making tools)
+### ☑️ SOLID (as decision-making tools)
 
 - [x]  Single Responsibility → how responsibilities actually creep
 - [x]  Open/Closed → extending without modifying
-- [ ]  Liskov → recognising broken inheritance
-- [ ]  Interface Segregation → fat vs thin interfaces
-- [ ]  Dependency Inversion → policy vs detail
+- [x]  Liskov → recognising broken inheritance
+- [x]  Interface Segregation → fat vs thin interfaces
+- [x]  Dependency Inversion → policy vs detail
 
 👉 Focus: *spotting violations in real code*
 
