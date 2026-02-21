@@ -3,11 +3,11 @@
 ## Step 0 - Define product in 10 lines.
  - What is the app?
  - Who is it for?
- - What ar teh top 3 user actions?
+ - What are the top 3 user actions?
  - What data is stored?
 
 ## Step 1 - List your core features (use cases)
-These become your **application features**. You’re basically building a checklist of “things the system does”.
+These become your **application features**. You are basically building a checklist of “things the system does”.
 
 Example use cases:
  - Create transaction
@@ -29,7 +29,7 @@ Examples:
 Even if they are simple.
 
 Example:
- - Transaction amount cannot be 0.
+ - Transaction amount cannot be £0.
  - Category name cannot be empty.
  - Date cannot be in the future.
 
