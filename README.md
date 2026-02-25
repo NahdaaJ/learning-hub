@@ -1,12 +1,11 @@
 # Learning Hub 🐼
 A repo to contain all my learning materials and notes. Even after I complete my learning plan, I would like to continue storing my notes and practice code in here.
 
-<pre> Currently Learning: Coupling, Cohesion & Change 🩶</pre>
+<pre> Currently Learning: Layered Architecture 🩶 </pre>
 
-## 🖤 PHASE 1 — CORE SOFTWARE ENGINEERING THINKING
+## 🖤 PHASE 1 — CORE SOFTWARE ENGINEERING THINKING ✅
 
 > Goal: Understand *why* code is structured the way it is
-> 
 
 ### ☑️ Object-Oriented Design (Conceptual, not syntax)
 
@@ -32,12 +31,12 @@ A repo to contain all my learning materials and notes. Even after I complete my 
 
 ---
 
-### ◼️ Coupling, Cohesion & Change
+### ☑️ Coupling, Cohesion & Change
 
-- [ ]  What tightly coupled code feels like to work with
-- [ ]  What “high cohesion” looks like in practice
-- [ ]  Localising change
-- [ ]  Designing for change vs over-engineering
+- [x]  What tightly coupled code feels like to work with
+- [x]  What “high cohesion” looks like in practice
+- [x]  Localising change
+- [x]  Designing for change vs over-engineering
 
 ### Small project: **Domain Modelling Exercise**
 
