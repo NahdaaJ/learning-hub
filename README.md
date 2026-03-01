@@ -38,25 +38,6 @@ A repo to contain all my learning materials and notes. Even after I complete my 
 - [x]  Localising change
 - [x]  Designing for change vs over-engineering
 
-### Small project: **Domain Modelling Exercise**
-
-**Build:** A tiny in-memory domain model (console or class library)
-
-**Example domains (pick ONE):**
-
-- Library (books, members, loans)
-- Orders (orders, items, payments)
-- Habits (habits, completions, streaks)
-
-**Must contain:**
-
-- [ ]  Clear responsibilities per class
-- [ ]  No “god objects”
-- [ ]  Behaviour inside the domain (not just data)
-- [ ]  Explicit invariants (rules that must always hold)
-
-📌 Purpose: practise **encapsulation, cohesion, responsibility** — not features.
-
 ---
 
 ## 🖤 PHASE 2 — ARCHITECTURE FUNDAMENTALS (VERY IMPORTANT)
@@ -88,27 +69,6 @@ A repo to contain all my learning materials and notes. Even after I complete my 
 - [ ]  DTOs vs domain models (conceptual)
 - [ ]  Why mapping exists
 - [ ]  What *not* to leak across boundaries
-
-### Small project: **Layered Refactor**
-
-**Build:** A deliberately over-simple layered app
-
-**Task:**
-
-- Start with all logic in one place
-- Split into:
-    - Domain
-    - Application
-    - Infrastructure
-
-**Must contain:**
-
-- [ ]  Clear layer boundaries
-- [ ]  No infrastructure referenced by domain
-- [ ]  Interfaces at boundaries
-- [ ]  A short diagram or README explaining dependencies
-
-📌 Purpose: internalise **boundaries & dependency direction**.
 
 ---
 
@@ -146,19 +106,6 @@ A repo to contain all my learning materials and notes. Even after I complete my 
 - [ ]  Trust boundaries
 - [ ]  Common auth mistakes
 
-### Small project: **API Behaviour Sandbox**
-
-**Build:** A minimal API (or fake API simulator)
-
-**Must contain:**
-
-- [ ]  3–4 endpoints only
-- [ ]  Correct status codes for success & failure
-- [ ]  Idempotent vs non-idempotent endpoints
-- [ ]  One intentional failure scenario (timeout, validation error)
-
-📌 Purpose: learn **HTTP semantics & failure**, not CRUD.
-
 ---
 
 ## 🖤 PHASE 4 — DATA & STATE (MENTAL MODELS)
@@ -191,24 +138,6 @@ A repo to contain all my learning materials and notes. Even after I complete my 
 - [ ]  N+1 problem (why it happens)
 - [ ]  When to drop to raw SQL
 
-### Small project: **Data Modelling Drill**
-
-**Build:** A simple relational schema + access layer
-
-**Task:**
-
-- Design tables first (on paper or doc)
-- Then implement minimal code to read/write
-
-**Must contain:**
-
-- [ ]  1-many relationship
-- [ ]  Foreign keys
-- [ ]  A transaction scenario
-- [ ]  One example of what goes wrong without a transaction
-
-📌 Purpose: build intuition around **data integrity & state**.
-
 ---
 
 ## 🖤 PHASE 5 — QUALITY, RISK & CHANGE
@@ -231,23 +160,6 @@ A repo to contain all my learning materials and notes. Even after I complete my 
 - [ ]  How engineers debug production issues
 - [ ]  Why reproducibility matters
 - [ ]  Reading logs like a story
-
-### Small project: **Change Simulation**
-
-**Build:** A small existing codebase (or your own)
-
-**Task:**
-
-- Introduce a new requirement *without breaking behaviour*
-
-**Must contain:**
-
-- [ ]  Tests added before change
-- [ ]  Refactor to enable change
-- [ ]  At least one bug caught by a test
-- [ ]  Explanation of what could have gone wrong
-
-📌 Purpose: practise **safe change & risk management**.
 
 ---
 
@@ -272,19 +184,6 @@ A repo to contain all my learning materials and notes. Even after I complete my 
 - [ ]  Build → test → deploy pipeline mentally
 - [ ]  Risks in deployment
 
-### Small project: **Delivery Walkthrough**
-
-**Build:** A minimal pipeline + deployment explanation
-
-**Must contain:**
-
-- [ ]  One automated build step
-- [ ]  One test step
-- [ ]  Config separated from code
-- [ ]  Written explanation of rollback strategy
-
-📌 Purpose: see the **full lifecycle**, even at toy scale.
-
 ---
 
 ## 🖤 PHASE 7 — AI IN CONTEXT (THE RIGHT WAY)
@@ -298,19 +197,3 @@ A repo to contain all my learning materials and notes. Even after I complete my 
 - [ ]  Where AI is dangerous (design, security, edge cases)
 - [ ]  Reviewing AI code critically
 - [ ]  Maintaining system ownership
-
-### Small project: **AI-Assisted Refactor**
-
-**Task:**
-
-- Ask AI to refactor a piece of code
-- Review it like a senior would
-
-**Must contain:**
-
-- [ ]  List of accepted suggestions
-- [ ]  List of rejected suggestions
-- [ ]  Explanation of *why*
-- [ ]  Final human-approved version
-
-📌 Purpose: maintain **ownership & judgement**.
